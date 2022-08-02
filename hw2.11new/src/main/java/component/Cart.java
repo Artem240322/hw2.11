@@ -18,7 +18,7 @@ public class Cart {
         this.items = new ArrayList<>();
     }
 
-    public List<Integer> addItems(List<Integer>) {
+    public <idList> List<Integer> addItems(List<Integer>List<Integer> idList) {
         items.addAll(idList);
         return idList;
     }
